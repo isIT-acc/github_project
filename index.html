@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/lux/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-smnSwzHqW1zKbeuSMsAM/fMQpkk7HY11LuHiwT8snL/W2QBoZtVCT4H5x1CEcJCs"
+      crossorigin="anonymous"
+    />
+    <!-- <link rel="stylesheet" href="bootstrap.min.css" /> -->
+    <title>github поиск</title>
+  </head>
+  <body>
+    <div class="container text-center bg-primary">
+      <a href="#" class="navbar-brand text-white">Git hub поиск</a>
+    </div>
+    <div class="container searchContainer">
+      <div class="search card card-body">
+        <input
+          type="text"
+          id="searchUser"
+          class="form-control"
+          placeholder="Имя пользователя на GitHub ..."
+        />
+      </div>
+      <div id="profile"></div>
+    </div>
+
+    <script src="github.js"></script>
+    <script src="ui.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
